@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#EEE2CE;
+    color: #a15f49;
+    font-family:sans-serif;
+}
+
+.img_header{
+    width: 1200px;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 98px;
+    background-image: url("../dia 7 do 11/public/images/rectangle-2.png"), lightgray 50% / cover no-repeat;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.titulo_header{
+    color: #29130A;
+    font-family: Koulen;
+    font-size: 116px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.header{
+    width: 100%;
+    height: 567px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #A15F49 0%, rgba(161, 95, 73, 0.00) 96.3%);
+    position: relative;
+}
+
+div.retangulo{
+    position: absolute;
+    z-index: 2;
+    width: 446px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 3px solid #A15F49;
+    background-color: none;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+div.img_aboutUs{
+    float: left;
+    position: relative; 
+    width: 449px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background-image: url("public/images/rectangle-3.png"), lightgray 50% / cover no-repeat;
+    margin-left: 130px;
+}
+
+.about-us{
+    color: #A15F49;
+    font-family: Judson;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-right: 300px; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#textAbout{
+    margin-right: 200px;
+    width: 419px;
+    margin-top: 50px;
+}
+
+.aboutUsParagraph{
+    color: #A15F49;
+    font-family: Judson;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#menu{
+    color: #29130A;
+    font-family: Koulen;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.containerProduto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.retangulo2{
+    width: 1088px;
+    height: 466px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 3px solid #A15F49;
+    margin-top: 40px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.imagem_produto{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+.texto_produto{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.botao{
+    background-color: #A15F49;
+    border: none;
+    border-radius: 25px;
+    color: #EEE2CE;
+    width: 100px;
+    height: 25px;
+}
